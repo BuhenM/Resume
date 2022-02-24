@@ -1,2 +1,40 @@
-body {background-color: #f1f0e5;}
-head{display:inline;margin:120px; font-size:3em}
+body{
+    box-sizing: border-box;
+    background-color: rgb(139, 157, 197);
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    font-weight: 400;
+    display: flex;
+}
+
+.box{
+    background-color: white;
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+.header-left{
+    padding:1rem;
+}
+
+
+
+.header{
+    background-color: aqua;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 60% 40%
+    ;
+}
+.body{
+    display: grid;
+    grid-template-columns: 30% 70%
+    ;
+}
