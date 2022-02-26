@@ -1,6 +1,5 @@
 body{
     box-sizing: border-box;
-    background-color: rgb(139, 157, 197);
     font-family: 'Poppins', sans-serif;
     margin:0;
     padding: 0;
@@ -38,6 +37,7 @@ ul{list-style-type: square;
 
 h3{
     text-transform: uppercase;
+    color:dimgrey;
 }
 
 
@@ -74,7 +74,12 @@ hr{
 
 }
 p{font-size:small;
+    line-height:2
 }
 
 p.info{line-height:2;
 }
+p.ex{font-size:medium;
+    margin-top:10px;
+}
+ul.exL{margin-top:-20px; }
