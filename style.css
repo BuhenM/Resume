@@ -1,82 +1,84 @@
-body{
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    margin:0;
-    padding: 0;
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    margin: 0;
-    font-weight: 400;
-    display: flex;
+h1 {
+  margin: 0;
+  font-weight: 400;
+  display: flex;
 }
 
-.box{
-    background-color:lightblue;
-    width: 50rem;
-    padding: 3rem;
-    margin: 1rem auto;
-    border-radius: 0.5rem;
+.box {
+  background-color: lightblue;
+  width: 50rem;
+  padding: 3rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
 }
 
-.header-left{
-    padding:1rem;
-    font-size: large;
-    text-transform: uppercase;
-    line-height: 2rem;
+.header-left {
+  padding: 1rem;
+  font-size: large;
+  text-transform: uppercase;
+  line-height: 2rem;
 }
 
-.header-right{
-    padding:1rem;
-    margin-bottom:-2rem;
-    font-size:xx-large;
-    line-height: 17px;
-    margin-top: -8px;
+.header-right {
+  padding: 1rem;
+  margin-bottom: -2rem;
+  font-size: xx-large;
+  line-height: 17px;
+  margin-top: -8px;
+}
+.header-right a {
+  text-decoration-line: none;
+  color: black;
+}
+ul {
+  list-style-type: square;
+  line-height: 17px;
+  font-size: medium;
 }
 
-ul{
-    list-style-type: square;
-    line-height: 17px;
-    font-size:medium
+h3 {
+  text-transform: uppercase;
+  color: dimgrey;
+  margin-bottom: 5px;
 }
 
-h3{
-    text-transform: uppercase;
-    color:dimgrey;
-    margin-bottom:5px;
+.header {
+  background-color: white;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.body {
+  grid-template-columns: 35% 65%;
+  display: grid;
 }
 
-
-.header{
-    background-color: white;
-    border-radius: 0.5rem;
-    display: grid;
-    grid-template-columns: 60% 40%
-    ;
-}
-.body{
-    grid-template-columns: 35% 65%;
-    display: grid;
+p {
+  font-size: medium;
+  line-height: 17px;
 }
 
-p{
-    font-size:medium;
-    line-height: 17px;
+p.short-overview {
+  font-size: medium;
+  text-align: center;
 }
 
-p.short-overview{
-    font-size: medium;
-    text-align:center;
+p.ex {
+  font-size: medium;
 }
 
-p.ex{font-size:medium;  
+ul.exL {
+  margin-top: -10px;
+  line-height: 17px;
 }
 
-ul.exL{
-    margin-top:-10px; 
-    line-height: 17px;
-}
-
-.right-body-section{
-    padding-left: 3rem;
+.right-body-section {
+  padding-left: 3rem;
 }
