@@ -1,2 +1,2 @@
 # marceline buhendwa
-live link:
+live link:https://buhenm.github.io/Resume/
